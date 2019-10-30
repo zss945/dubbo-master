@@ -19,6 +19,7 @@
 
     <dependencies>
 
+        <!-- 引用api子模块 -->
         <dependency>
             <groupId>com.dubbo</groupId>
             <artifactId>api</artifactId>
@@ -53,16 +54,10 @@
             </exclusions>
         </dependency>
 
-        <!-- Zookeeper客户端 -->
+        <!-- Zookeeper客户端，封装了大量ZooKeeper常用API操作 -->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
-            <version>4.2.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-framework</artifactId>
             <version>4.2.0</version>
         </dependency>
 

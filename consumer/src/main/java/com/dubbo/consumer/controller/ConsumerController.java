@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/")
-public class LoginController {
+public class ConsumerController {
 
     // random 随机，默认的
     // roundrobin 轮询
